@@ -16,7 +16,10 @@ INSTALL_ANSIBLE_SCRIPT="${PWD}/scripts/install-ansible.sh"
 # ---------------
 # Install Ansible
 # ---------------
-wget -O ${INSTALL_ANSIBLE_SCRIPT} ${INSTALL_ANSIBLE_URL}
+if [ ! -f ${INSTALL_ANSIBLE_SCRIPT} ]; then
+  wget -O ${INSTALL_ANSIBLE_SCRIPT} ${INSTALL_ANSIBLE_URL}
+fi
+
 chmod +x ${INSTALL_ANSIBLE_SCRIPT}
 sudo ${INSTALL_ANSIBLE_SCRIPT}
 
