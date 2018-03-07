@@ -1,0 +1,19 @@
+---
+- hosts: all
+  connection: local
+  become: true
+
+  vars:
+    packer_version: "1.2.0"
+    packer_arch: "amd64"
+
+    terraform_version: "0.11.3"
+    terraform_arch: "amd64"
+
+  tasks:
+  - import_role:
+      name: brentwg.packer 
+
+  - import_role:
+      name: brentwg.terraform
+      
