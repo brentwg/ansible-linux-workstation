@@ -1,4 +1,5 @@
 ---
 - name: brentwg.linux-customization
+- name: brentwg.multimedia
 - name: brentwg.packer
 - name: brentwg.terraform
