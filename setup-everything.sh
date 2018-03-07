@@ -27,11 +27,16 @@ sudo ${INSTALL_ANSIBLE_SCRIPT}
 # --------------------
 # Install Requirements
 # --------------------
-# Use -f to force overwriting of existing roles
+# Use -f to force overwriting of existing roles (for testing)
 ansible-galaxy install -f -r ./requirements.yml
 
 # --------------------
 # Execute the playbook
 # --------------------
-# Prompt for password because nopasswd sudo is not set during 1st run
-ansible-playbook ./main.yml --ask-become-pass
+# Check to see if sudo has nopasswd enabled
+if (sudo -n true) ; then
+  ansible-playbook ./main.yml
+else
+  # otherwise prompt for sudo password
+  ansible-playbook ./main.yml --ask-become-pass
+fi
