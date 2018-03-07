@@ -5,6 +5,7 @@
 #
 # Brent WG
 # 2018-03-05
+# 2018-03-06
 # ------------------------------------------------------------------------
 
 # ----------------
@@ -26,7 +27,11 @@ sudo ${INSTALL_ANSIBLE_SCRIPT}
 # --------------------
 # Install Requirements
 # --------------------
+# Use -f to force overwriting of existing roles
+ansible-galaxy install -f -r ./requirements.yml
 
 # --------------------
 # Execute the playbook
 # --------------------
+# Prompt for password because nopasswd sudo is not set during 1st run
+ansible-playbook ./main.yml --ask-become-pass
