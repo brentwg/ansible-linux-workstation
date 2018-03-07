@@ -15,6 +15,9 @@
       name: brentwg.linux-customization
       
   - import_role:
+      name: brentwg.multimedia
+      
+  - import_role:
       name: brentwg.packer 
 
   - import_role:
