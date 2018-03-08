@@ -22,4 +22,7 @@
 
   - import_role:
       name: brentwg.terraform
+
+  - import_role:
+      name: brentwg.visual-studio-code
       

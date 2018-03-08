@@ -3,3 +3,4 @@
 - name: brentwg.multimedia
 - name: brentwg.packer
 - name: brentwg.terraform
+- name: brentwg.visual-studio-code
