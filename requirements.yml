@@ -1,6 +1,7 @@
 ---
 - name: brentwg.linux-customization
 - name: brentwg.multimedia
+- name: brentwg.vagrant
 - name: brentwg.packer
 - name: brentwg.terraform
 - name: brentwg.visual-studio-code
