@@ -6,3 +6,4 @@
 - name: brentwg.terraform
 - name: brentwg.visual-studio-code
 - name: brentwg.docker
+- name: brentwg.pip
