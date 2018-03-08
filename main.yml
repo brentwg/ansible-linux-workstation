@@ -12,6 +12,10 @@
 
     terraform_version: "0.11.3"
     terraform_arch: "amd64"
+    
+    pip_install_packages:
+      - name: awscli
+        state: latest
 
   tasks:
   - import_role:
@@ -34,4 +38,7 @@
       
   - import_role:
       name: brentwg.docker
+  
+  - import_role:
+      name: brentwg.pip
       
