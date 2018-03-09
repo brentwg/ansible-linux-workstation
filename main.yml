@@ -22,6 +22,9 @@
       name: brentwg.linux-customization
       
   - import_role:
+      name: brentwg.google-chrome
+      
+  - import_role:
       name: brentwg.multimedia
       
   - import_role:
