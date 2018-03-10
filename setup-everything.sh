@@ -40,3 +40,8 @@ else
   # otherwise prompt for sudo password
   ansible-playbook ./main.yml --ask-become-pass
 fi
+
+# --------
+# Clean up
+# --------
+rm -fv $INSTALL_ANSIBLE_SCRIPT
