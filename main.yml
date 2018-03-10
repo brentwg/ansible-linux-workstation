@@ -44,4 +44,7 @@
   
   - import_role:
       name: brentwg.pip
+
+  - import_role:
+      name: brentwg.gcloud-sdk
       

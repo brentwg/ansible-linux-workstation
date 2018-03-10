@@ -8,3 +8,4 @@
 - name: brentwg.visual-studio-code
 - name: brentwg.docker
 - name: brentwg.pip
+- name: brentwg.gcloud-sdk
