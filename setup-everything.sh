@@ -17,9 +17,8 @@ INSTALL_ANSIBLE_SCRIPT="${PWD}/scripts/install-ansible.sh"
 # ---------------
 # Install Ansible
 # ---------------
-if [ ! -f ${INSTALL_ANSIBLE_SCRIPT} ]; then
-  wget -O ${INSTALL_ANSIBLE_SCRIPT} ${INSTALL_ANSIBLE_URL}
-fi
+# ALWAYS download script from GIST
+wget -O ${INSTALL_ANSIBLE_SCRIPT} ${INSTALL_ANSIBLE_URL}
 
 chmod +x ${INSTALL_ANSIBLE_SCRIPT}
 sudo ${INSTALL_ANSIBLE_SCRIPT}
@@ -40,8 +39,3 @@ else
   # otherwise prompt for sudo password
   ansible-playbook ./main.yml --ask-become-pass
 fi
-
-# --------
-# Clean up
-# --------
-rm -fv $INSTALL_ANSIBLE_SCRIPT
