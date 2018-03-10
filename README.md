@@ -9,7 +9,7 @@ This playbook installs and configures mostly everything I need to perform Cloud 
 1. Clone this repo
 1. Run the `./setup_everything.sh` command
 
-> NOTE: Your Linux user accout will require `sudo` privileges.  
+> **NOTE**: Your Linux user accout will require `sudo` privileges.  
 
 ## Intended Linux Distributions
 
