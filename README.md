@@ -15,9 +15,7 @@ This playbook installs and configures mostly everything I need to perform Cloud 
 
 This playbook has been tested to work with the following Linux distributions (and versions):
 
-- [CentOS](https://www.centos.org/) 7
 - [Fedora](https://getfedora.org/) 27
-- [Ubuntu](https://www.ubuntu.com/) 16.04
 - [Ubuntu](https://www.ubuntu.com/) 17.10  
 
 ## Included Ansible Roles
