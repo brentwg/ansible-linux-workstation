@@ -2,10 +2,10 @@
 services: docker
 
 env:
-  #- distro: centos7
+  - distro: centos7
   - distro: fedora27
-  #- distro: ubuntu1604
-  #- distro: ubuntu1710
+  - distro: ubuntu1604
+  - distro: ubuntu1710
 
 script:
   # Configure test script so we can run extra tests after playbook is run.
