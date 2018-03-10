@@ -102,7 +102,7 @@ pip_install_packages:
 - [AWS CLI](https://aws.amazon.com/cli/)
 - [GCP Cloud SDK](https://cloud.google.com/sdk/)
 
-## Configuration Details 
+## Configuration Summary 
 - Enable SSH server
 - Modify default sshd config
 - Enable nopasswd `sudo`
@@ -114,6 +114,7 @@ pip_install_packages:
 - Configure pass USB remote repo
 
 ## Future Considerations
+- Azure CLI
 - more dot files
 - vimrc
 - VS Code extensions
@@ -121,7 +122,7 @@ pip_install_packages:
 - Gnome dock favorites
 - Python development environment
 - Ruby development environment
-- Golan development environment
+- Golang development environment
 
 ## TODO
 Lock down versions (tags) for imported roles
