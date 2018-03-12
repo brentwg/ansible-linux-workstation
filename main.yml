@@ -63,3 +63,5 @@
   - import_role:
       name: brentwg.gcloud-sdk
       
+  - import_role:
+      name: brentwg.azure-cli
