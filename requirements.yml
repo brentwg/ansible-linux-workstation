@@ -9,3 +9,4 @@
 - name: brentwg.docker
 - name: brentwg.pip
 - name: brentwg.gcloud-sdk
+- name: brentwg.azure-cli
