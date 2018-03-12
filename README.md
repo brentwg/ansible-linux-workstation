@@ -31,6 +31,7 @@ This playbook automatically downloads the following custom Ansible roles:
 - [brentwg.docker](https://github.com/brentwg/ansible-role-docker)
 - [brentwg.pip](https://github.com/brentwg/ansible-role-pip)
 - [brentwg.gcloud-sdk](https://github.com/brentwg/ansible-role-gcloud-sdk)
+- [brentwg.azure-cli](https://github.com/brentwg/ansible-role-azure-cli)
 
 ## Defaults
 Each of the roles listed above have defaults that you can override. However, in order to minimize input, I tried to provide sane defaults that made the most sense to me. In any regard, this playbook has the following defaults specified:  
@@ -101,6 +102,7 @@ pip_install_packages:
 - [Python Pip](https://pypi.python.org/pypi/pip)
 - [AWS CLI](https://aws.amazon.com/cli/)
 - [GCP Cloud SDK](https://cloud.google.com/sdk/)
+- [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest)
 
 ## Configuration Summary 
 - Enable SSH server
@@ -114,7 +116,6 @@ pip_install_packages:
 - Configure pass USB remote repo
 
 ## Future Considerations
-- Azure CLI
 - more dot files
 - vimrc
 - VS Code extensions
