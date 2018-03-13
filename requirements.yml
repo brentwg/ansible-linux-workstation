@@ -10,3 +10,4 @@
 - name: brentwg.pip
 - name: brentwg.gcloud-sdk
 - name: brentwg.azure-cli
+- name: brentwg.golang

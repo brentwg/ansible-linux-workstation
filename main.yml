@@ -17,6 +17,10 @@
       - name: awscli
         state: latest
 
+    go_version: "1.10"
+    go_os: linux
+    go_arch: amd64
+
   pre_tasks:
     - name: Update apt cache.
       apt: update_cache=yes cache_valid_time=600
@@ -65,3 +69,6 @@
       
   - import_role:
       name: brentwg.azure-cli
+
+  - import_role:
+      name: brentwg.golang
