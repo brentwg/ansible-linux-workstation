@@ -62,6 +62,13 @@ pip_install_packages:
     state: latest
 ```
 
+### For Go
+```
+go_version: "1.10"
+go_os: linux
+go_arch: amd64
+```  
+
 ## Included Applications (and Groups)
 ### RedHat
 - vim-enhanced
