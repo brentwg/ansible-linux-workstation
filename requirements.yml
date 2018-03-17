@@ -8,7 +8,8 @@
 - name: brentwg.visual-studio-code
 - name: brentwg.docker
 - name: brentwg.pip
-- name: brentwg.gcloud-sdk
+- src: brentwg.gcloud-sdk
+  version: "1.0"
 - src: brentwg.azure-cli
   version: "1.0"
 - src: brentwg.golang
