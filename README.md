@@ -107,6 +107,7 @@ go_arch: amd64
 - [Terraform](https://www.terraform.io/)
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Docker CE](https://www.docker.com/community-edition)
+- [Docker Compose](https://docs.docker.com/compose/)
 - [Python Pip](https://pypi.python.org/pypi/pip)
 - [AWS CLI](https://aws.amazon.com/cli/)
 - [GCP Cloud SDK](https://cloud.google.com/sdk/)
