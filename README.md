@@ -133,6 +133,3 @@ go_arch: amd64
 - Gnome dock favorites
 - Python development environment
 - Ruby development environment
-
-## TODO
-Lock down versions (tags) for imported roles
