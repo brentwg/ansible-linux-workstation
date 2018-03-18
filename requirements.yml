@@ -1,16 +1,36 @@
 ---
-- name: brentwg.linux-customization
-- name: brentwg.google-chrome
-- name: brentwg.multimedia
-- name: brentwg.vagrant
-- name: brentwg.packer
-- name: brentwg.terraform
-- name: brentwg.visual-studio-code
-- name: brentwg.docker
-- name: brentwg.pip
+- src: brentwg.linux-customization
+  version: "1.0"
+
+- src: brentwg.google-chrome
+  version: "0.9"
+
+- src: brentwg.multimedia
+  version: "1.0"
+
+- src: brentwg.vagrant
+  version: "1.0"
+
+- src: brentwg.packer
+  version: "1.1"
+
+- src: brentwg.terraform
+  version: "1.0"
+
+- src: brentwg.visual-studio-code
+  version: "1.0"
+
+- src: brentwg.docker
+  version: "1.0"
+
+- src: brentwg.pip
+  version: "1.0"
+
 - src: brentwg.gcloud-sdk
   version: "1.0"
+
 - src: brentwg.azure-cli
   version: "1.0"
+
 - src: brentwg.golang
   version: "1.0"
