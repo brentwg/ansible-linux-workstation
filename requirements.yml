@@ -18,10 +18,10 @@
   version: "1.0"
 
 - src: brentwg.visual-studio-code
-  version: "1.0"
+  version: "1.1"
 
 - src: brentwg.docker
-  version: "1.0"
+  version: "1.!"
 
 - src: brentwg.pip
   version: "1.0"
