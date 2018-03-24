@@ -4,13 +4,13 @@
   become: true
 
   vars:
-    vagrant_version: "2.0.2"
+    vagrant_version: "2.0.3"
     vagrant_arch: "x86_64"
   
-    packer_version: "1.2.0"
+    packer_version: "1.2.1"
     packer_arch: "amd64"
 
-    terraform_version: "0.11.3"
+    terraform_version: "0.11.5"
     terraform_arch: "amd64"
     
     pip_install_packages:
