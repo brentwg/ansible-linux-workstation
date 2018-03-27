@@ -5,11 +5,11 @@
 # The following distros are supported: 
 #   - Fedora 20 and greater
 #   - CentOS 7
-#   - Ubuntu 16.04, 17.10
+#   - Ubuntu 16.04, 17.10, 18.04
 #
 # Brent WG
 # 2018-02-27
-# 2018-03-05
+# 2018-03-27
 # ------------------------------------------------------------------------
 
 # ----------------
@@ -80,6 +80,14 @@ if [ "$ID" == "ubuntu" ]; then
       sudo apt-add-repository ppa:ansible/ansible -y
       sudo apt-get update
       sudo apt-get install software-properties-common ansible python-apt -y
+      ;;
+    18.04)
+      echo "Importing Ansible signing keys"
+      sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 93C4A3FD7BB9C367
+      echo "Adding Ansible PPA, then installing Ansible"
+      sudo apt-add-repository "deb http://ppa.launchpad.net/ansible/ansible/ubuntu artful main"
+      sudo apt-get update 
+      sudo apt-get install ansible -y
       ;;
     *) 
       error_exit
