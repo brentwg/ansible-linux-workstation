@@ -72,3 +72,6 @@
 
   - import_role:
       name: brentwg.golang
+
+  - import_role:
+      name: brentwg.powershell

@@ -33,6 +33,7 @@ This playbook automatically downloads the following custom Ansible roles:
 - [brentwg.gcloud-sdk](https://github.com/brentwg/ansible-role-gcloud-sdk)
 - [brentwg.azure-cli](https://github.com/brentwg/ansible-role-azure-cli)
 - [brentwg.golang](https://github.com/brentwg/ansible-role-golang)
+- [brentwg.powershell](https://github.com/brentwg/ansible-role-powershell) (Fedora only)
 
 ## Defaults
 Each of the roles listed above have defaults that you can override. However, in order to minimize input, I tried to provide sane defaults that made the most sense to me. In any regard, this playbook has the following defaults specified:  
@@ -113,6 +114,7 @@ go_arch: amd64
 - [GCP Cloud SDK](https://cloud.google.com/sdk/)
 - [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest)
 - [Go](https://golang.org/)
+- [PowerShell](https://github.com/PowerShell/PowerShell) (Fedora only)
 
 ## Configuration Summary 
 - Enable SSH server

@@ -34,3 +34,5 @@
 
 - src: brentwg.golang
   version: "1.0"
+
+- src: brentwg.powershell
